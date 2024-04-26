@@ -21,6 +21,8 @@
 		41ED4CE62BDB0E3600FCB439 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4CE52BDB0E3600FCB439 /* AddActivityView.swift */; };
 		41ED4CE82BDB128300FCB439 /* ActivityProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4CE72BDB128300FCB439 /* ActivityProgressView.swift */; };
 		41ED4CEA2BDC2C2500FCB439 /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4CE92BDC2C2500FCB439 /* RankView.swift */; };
+		41ED4D0E2BDC623000FCB439 /* ContentUnavailableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D0C2BDC623000FCB439 /* ContentUnavailableExample.swift */; };
+		41ED4D0F2BDC623000FCB439 /* ScrollViewExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D0D2BDC623000FCB439 /* ScrollViewExamples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		41ED4CE52BDB0E3600FCB439 /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 		41ED4CE72BDB128300FCB439 /* ActivityProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityProgressView.swift; sourceTree = "<group>"; };
 		41ED4CE92BDC2C2500FCB439 /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
+		41ED4D0C2BDC623000FCB439 /* ContentUnavailableExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentUnavailableExample.swift; sourceTree = "<group>"; };
+		41ED4D0D2BDC623000FCB439 /* ScrollViewExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 				41ED4CDD2BDAFE1800FCB439 /* Activities.json */,
 				4115537C2BDAF8030035AB38 /* Assets.xcassets */,
 				41ED4CD72BDAFC4B00FCB439 /* Ranks.xcassets */,
+				41ED4D0B2BDC621900FCB439 /* Tutorials */,
 				4115537E2BDAF8030035AB38 /* Preview Content */,
 			);
 			path = Workless;
@@ -95,6 +100,15 @@
 				4115537F2BDAF8030035AB38 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41ED4D0B2BDC621900FCB439 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				41ED4D0C2BDC623000FCB439 /* ContentUnavailableExample.swift */,
+				41ED4D0D2BDC623000FCB439 /* ScrollViewExamples.swift */,
+			);
+			path = Tutorials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41ED4D0F2BDC623000FCB439 /* ScrollViewExamples.swift in Sources */,
 				41ED4CE02BDAFE4600FCB439 /* Activity.swift in Sources */,
 				41ED4CE82BDB128300FCB439 /* ActivityProgressView.swift in Sources */,
 				41ED4CE62BDB0E3600FCB439 /* AddActivityView.swift in Sources */,
+				41ED4D0E2BDC623000FCB439 /* ContentUnavailableExample.swift in Sources */,
 				41ED4CE42BDB06BE00FCB439 /* AboutView.swift in Sources */,
 				4115537B2BDAF8010035AB38 /* ContentView.swift in Sources */,
 				41ED4CDC2BDAFDCB00FCB439 /* DataController.swift in Sources */,
