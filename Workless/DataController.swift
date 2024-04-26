@@ -21,6 +21,14 @@ class DataController: ObservableObject {
         }
     }
     
+    var usedActivities: [Activity] {
+        allActivities.filter { item in
+            activityProgress.contains { other in
+                item.id == other.id
+            } == true
+        }
+    }
+    
     var rankImage: String {
         let rankLevel = totalProgress / 10
         return "Rank Level \(rankLevel + 1)"

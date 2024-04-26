@@ -19,10 +19,32 @@ struct ContentView: View {
                 }
                 
                 Section("Your Progress") {
-                    ForEach(dataController.activityProgress) { item in
-                        ActivityProgressView(item: item)
+                    if (dataController.activityProgress.isEmpty) {
+                        ContentUnavailableView {
+                            Label("No Activities", systemImage: "figure.walk.circle.fill")
+                        } description: {
+                            Text("Please add some activities")
+                        } actions: {
+                            Button {
+                                showingAddActivity.toggle()
+                            } label: {
+                                Label("Add Activity", systemImage: "figure.walk.circle")
+                            }
+                            .buttonStyle(.borderedProminent)
+                            .foregroundStyle(.white)
+                        }
+                        .sheet(isPresented: $showingAddActivity) {
+                            AddActivityView()
+                        }
+
+                        
+                    } else {
+                        ForEach(dataController.activityProgress) { item in
+                            
+                            ActivityProgressView(item: item)
+                        }
+                        .onDelete(perform: deleteProgress)
                     }
-                    .onDelete(perform: deleteProgress)
                 }
             }
             .navigationTitle("Work Less")
@@ -30,7 +52,7 @@ struct ContentView: View {
                 Button {
                     showingAddActivity.toggle()
                 } label: {
-                    Label("Add ACtivity", systemImage: "plus")
+                    Label("Add Activity", systemImage: "plus")
                 }
             }
             .sheet(isPresented: $showingAddActivity) {
@@ -46,4 +68,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(DataController())
 }
