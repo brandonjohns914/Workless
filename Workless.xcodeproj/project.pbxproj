@@ -20,6 +20,7 @@
 		41ED4CE42BDB06BE00FCB439 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4CE32BDB06BE00FCB439 /* AboutView.swift */; };
 		41ED4CE62BDB0E3600FCB439 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4CE52BDB0E3600FCB439 /* AddActivityView.swift */; };
 		41ED4CE82BDB128300FCB439 /* ActivityProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4CE72BDB128300FCB439 /* ActivityProgressView.swift */; };
+		41ED4CEA2BDC2C2500FCB439 /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4CE92BDC2C2500FCB439 /* RankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		41ED4CE32BDB06BE00FCB439 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		41ED4CE52BDB0E3600FCB439 /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
 		41ED4CE72BDB128300FCB439 /* ActivityProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityProgressView.swift; sourceTree = "<group>"; };
+		41ED4CE92BDC2C2500FCB439 /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				41ED4CE32BDB06BE00FCB439 /* AboutView.swift */,
 				41ED4CE52BDB0E3600FCB439 /* AddActivityView.swift */,
 				41ED4CE72BDB128300FCB439 /* ActivityProgressView.swift */,
+				41ED4CE92BDC2C2500FCB439 /* RankView.swift */,
 				41ED4CDF2BDAFE4600FCB439 /* Activity.swift */,
 				41ED4CE12BDAFE8D00FCB439 /* ActivityProgress.swift */,
 				41ED4CDD2BDAFE1800FCB439 /* Activities.json */,
@@ -172,6 +175,7 @@
 				41ED4CE42BDB06BE00FCB439 /* AboutView.swift in Sources */,
 				4115537B2BDAF8010035AB38 /* ContentView.swift in Sources */,
 				41ED4CDC2BDAFDCB00FCB439 /* DataController.swift in Sources */,
+				41ED4CEA2BDC2C2500FCB439 /* RankView.swift in Sources */,
 				411553792BDAF8010035AB38 /* WorklessApp.swift in Sources */,
 				41ED4CDA2BDAFC9400FCB439 /* Bundle-Decodable.swift in Sources */,
 				41ED4CE22BDAFE8D00FCB439 /* ActivityProgress.swift in Sources */,
