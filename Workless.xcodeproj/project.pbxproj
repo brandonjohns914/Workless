@@ -25,6 +25,7 @@
 		41ED4D0F2BDC623000FCB439 /* ScrollViewExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D0D2BDC623000FCB439 /* ScrollViewExamples.swift */; };
 		41ED4D182BDDA1FF00FCB439 /* ScrollViewExamples2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D162BDDA1FF00FCB439 /* ScrollViewExamples2.swift */; };
 		41ED4D192BDDA1FF00FCB439 /* ScrollViewExamples3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D172BDDA1FF00FCB439 /* ScrollViewExamples3.swift */; };
+		41ED4D1B2BDDAE9F00FCB439 /* ScrollViewExamples4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D1A2BDDAE9F00FCB439 /* ScrollViewExamples4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		41ED4D0D2BDC623000FCB439 /* ScrollViewExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples.swift; sourceTree = "<group>"; };
 		41ED4D162BDDA1FF00FCB439 /* ScrollViewExamples2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples2.swift; sourceTree = "<group>"; };
 		41ED4D172BDDA1FF00FCB439 /* ScrollViewExamples3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples3.swift; sourceTree = "<group>"; };
+		41ED4D1A2BDDAE9F00FCB439 /* ScrollViewExamples4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				41ED4D0D2BDC623000FCB439 /* ScrollViewExamples.swift */,
 				41ED4D162BDDA1FF00FCB439 /* ScrollViewExamples2.swift */,
 				41ED4D172BDDA1FF00FCB439 /* ScrollViewExamples3.swift */,
+				41ED4D1A2BDDAE9F00FCB439 /* ScrollViewExamples4.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				41ED4D182BDDA1FF00FCB439 /* ScrollViewExamples2.swift in Sources */,
 				41ED4CDC2BDAFDCB00FCB439 /* DataController.swift in Sources */,
 				41ED4CEA2BDC2C2500FCB439 /* RankView.swift in Sources */,
+				41ED4D1B2BDDAE9F00FCB439 /* ScrollViewExamples4.swift in Sources */,
 				41ED4D192BDDA1FF00FCB439 /* ScrollViewExamples3.swift in Sources */,
 				411553792BDAF8010035AB38 /* WorklessApp.swift in Sources */,
 				41ED4CDA2BDAFC9400FCB439 /* Bundle-Decodable.swift in Sources */,
