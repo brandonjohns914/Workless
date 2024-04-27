@@ -23,6 +23,8 @@
 		41ED4CEA2BDC2C2500FCB439 /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4CE92BDC2C2500FCB439 /* RankView.swift */; };
 		41ED4D0E2BDC623000FCB439 /* ContentUnavailableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D0C2BDC623000FCB439 /* ContentUnavailableExample.swift */; };
 		41ED4D0F2BDC623000FCB439 /* ScrollViewExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D0D2BDC623000FCB439 /* ScrollViewExamples.swift */; };
+		41ED4D182BDDA1FF00FCB439 /* ScrollViewExamples2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D162BDDA1FF00FCB439 /* ScrollViewExamples2.swift */; };
+		41ED4D192BDDA1FF00FCB439 /* ScrollViewExamples3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D172BDDA1FF00FCB439 /* ScrollViewExamples3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		41ED4CE92BDC2C2500FCB439 /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
 		41ED4D0C2BDC623000FCB439 /* ContentUnavailableExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentUnavailableExample.swift; sourceTree = "<group>"; };
 		41ED4D0D2BDC623000FCB439 /* ScrollViewExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples.swift; sourceTree = "<group>"; };
+		41ED4D162BDDA1FF00FCB439 /* ScrollViewExamples2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples2.swift; sourceTree = "<group>"; };
+		41ED4D172BDDA1FF00FCB439 /* ScrollViewExamples3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			children = (
 				41ED4D0C2BDC623000FCB439 /* ContentUnavailableExample.swift */,
 				41ED4D0D2BDC623000FCB439 /* ScrollViewExamples.swift */,
+				41ED4D162BDDA1FF00FCB439 /* ScrollViewExamples2.swift */,
+				41ED4D172BDDA1FF00FCB439 /* ScrollViewExamples3.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -190,8 +196,10 @@
 				41ED4D0E2BDC623000FCB439 /* ContentUnavailableExample.swift in Sources */,
 				41ED4CE42BDB06BE00FCB439 /* AboutView.swift in Sources */,
 				4115537B2BDAF8010035AB38 /* ContentView.swift in Sources */,
+				41ED4D182BDDA1FF00FCB439 /* ScrollViewExamples2.swift in Sources */,
 				41ED4CDC2BDAFDCB00FCB439 /* DataController.swift in Sources */,
 				41ED4CEA2BDC2C2500FCB439 /* RankView.swift in Sources */,
+				41ED4D192BDDA1FF00FCB439 /* ScrollViewExamples3.swift in Sources */,
 				411553792BDAF8010035AB38 /* WorklessApp.swift in Sources */,
 				41ED4CDA2BDAFC9400FCB439 /* Bundle-Decodable.swift in Sources */,
 				41ED4CE22BDAFE8D00FCB439 /* ActivityProgress.swift in Sources */,
