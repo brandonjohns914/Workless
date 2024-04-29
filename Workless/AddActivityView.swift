@@ -15,8 +15,8 @@ struct AddActivityView: View {
     
     var body: some View {
         NavigationStack {
-            ScrollView {
-                LazyVStack {
+            ScrollView(.horizontal, showsIndicators: false) {
+                LazyHStack {
                     if unusedActivities.isEmpty {
                         ContentUnavailableView("No Activities left to do", systemImage: "checkmark.rectangle.stack", description: Text("Good Job you are barely working at all!"))
                     } else {
@@ -47,18 +47,20 @@ struct AddActivityView: View {
                                 }
                                 .foregroundStyle(.white)
                                 .padding(20)
-                                .frame(maxWidth: .infinity)
+                                .frame(maxHeight: .infinity)
                                 .background(.blue.gradient)
                                 .clipShape(RoundedRectangle(cornerRadius: 25))
                             }
+                            .containerRelativeFrame(.horizontal)
                         }
                     }
                 }
-                .padding(.horizontal, 20)
                 .scrollTargetLayout()
+                .fixedSize()
             }
             .navigationTitle("Add Activity")
             .scrollTargetBehavior(.viewAligned)
+            .contentMargins(20, for: .scrollContent)
             .onAppear {
                 unusedActivities = dataController.unusedActivities
             }
