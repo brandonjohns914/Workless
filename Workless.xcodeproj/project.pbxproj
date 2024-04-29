@@ -26,6 +26,7 @@
 		41ED4D182BDDA1FF00FCB439 /* ScrollViewExamples2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D162BDDA1FF00FCB439 /* ScrollViewExamples2.swift */; };
 		41ED4D192BDDA1FF00FCB439 /* ScrollViewExamples3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D172BDDA1FF00FCB439 /* ScrollViewExamples3.swift */; };
 		41ED4D1B2BDDAE9F00FCB439 /* ScrollViewExamples4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D1A2BDDAE9F00FCB439 /* ScrollViewExamples4.swift */; };
+		41ED4D1F2BE05AFE00FCB439 /* ScrollViewExamples5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4D1E2BE05AFE00FCB439 /* ScrollViewExamples5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		41ED4D162BDDA1FF00FCB439 /* ScrollViewExamples2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples2.swift; sourceTree = "<group>"; };
 		41ED4D172BDDA1FF00FCB439 /* ScrollViewExamples3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples3.swift; sourceTree = "<group>"; };
 		41ED4D1A2BDDAE9F00FCB439 /* ScrollViewExamples4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples4.swift; sourceTree = "<group>"; };
+		41ED4D1E2BE05AFE00FCB439 /* ScrollViewExamples5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				41ED4D162BDDA1FF00FCB439 /* ScrollViewExamples2.swift */,
 				41ED4D172BDDA1FF00FCB439 /* ScrollViewExamples3.swift */,
 				41ED4D1A2BDDAE9F00FCB439 /* ScrollViewExamples4.swift */,
+				41ED4D1E2BE05AFE00FCB439 /* ScrollViewExamples5.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				41ED4D0F2BDC623000FCB439 /* ScrollViewExamples.swift in Sources */,
 				41ED4CE02BDAFE4600FCB439 /* Activity.swift in Sources */,
+				41ED4D1F2BE05AFE00FCB439 /* ScrollViewExamples5.swift in Sources */,
 				41ED4CE82BDB128300FCB439 /* ActivityProgressView.swift in Sources */,
 				41ED4CE62BDB0E3600FCB439 /* AddActivityView.swift in Sources */,
 				41ED4D0E2BDC623000FCB439 /* ContentUnavailableExample.swift in Sources */,

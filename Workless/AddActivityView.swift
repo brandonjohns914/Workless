@@ -18,7 +18,7 @@ struct AddActivityView: View {
             ScrollView {
                 LazyVStack {
                     if unusedActivities.isEmpty {
-                        ContentUnavailableView("No Activities left to do", systemImage: "checkmark.rectangle", description: Text("Good Job you are barely working at all!"))
+                        ContentUnavailableView("No Activities left to do", systemImage: "checkmark.rectangle.stack", description: Text("Good Job you are barely working at all!"))
                     } else {
                         ForEach(unusedActivities) { activity in
                             Button{
@@ -54,9 +54,11 @@ struct AddActivityView: View {
                         }
                     }
                 }
-                .padding(.horizontal, 16)
+                .padding(.horizontal, 20)
+                .scrollTargetLayout()
             }
             .navigationTitle("Add Activity")
+            .scrollTargetBehavior(.viewAligned)
             .onAppear {
                 unusedActivities = dataController.unusedActivities
             }
