@@ -16,6 +16,11 @@
 		4104EFD72BE1909000637192 /* SensoryExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104EFD62BE1909000637192 /* SensoryExample1.swift */; };
 		4104EFDC2BE1919300637192 /* SFSymbolsExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104EFDA2BE1919300637192 /* SFSymbolsExample1.swift */; };
 		4104EFDD2BE1919300637192 /* SFSymbolsExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104EFDB2BE1919300637192 /* SFSymbolsExample2.swift */; };
+		4104EFE72BE192B400637192 /* SFSymbolExample4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104EFE42BE192B400637192 /* SFSymbolExample4.swift */; };
+		4104EFE82BE192B400637192 /* SFSymbolsExample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104EFE52BE192B400637192 /* SFSymbolsExample3.swift */; };
+		4104EFE92BE192B400637192 /* SFSymbolExample5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104EFE62BE192B400637192 /* SFSymbolExample5.swift */; };
+		4104EFF02BE1935F00637192 /* SFSymbolExample6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104EFEE2BE1935F00637192 /* SFSymbolExample6.swift */; };
+		4104EFF12BE1935F00637192 /* SFSymbolExample7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104EFEF2BE1935F00637192 /* SFSymbolExample7.swift */; };
 		411553792BDAF8010035AB38 /* WorklessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411553782BDAF8010035AB38 /* WorklessApp.swift */; };
 		4115537B2BDAF8010035AB38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115537A2BDAF8010035AB38 /* ContentView.swift */; };
 		4115537D2BDAF8030035AB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4115537C2BDAF8030035AB38 /* Assets.xcassets */; };
@@ -48,6 +53,11 @@
 		4104EFD62BE1909000637192 /* SensoryExample1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensoryExample1.swift; sourceTree = "<group>"; };
 		4104EFDA2BE1919300637192 /* SFSymbolsExample1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsExample1.swift; sourceTree = "<group>"; };
 		4104EFDB2BE1919300637192 /* SFSymbolsExample2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsExample2.swift; sourceTree = "<group>"; };
+		4104EFE42BE192B400637192 /* SFSymbolExample4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolExample4.swift; sourceTree = "<group>"; };
+		4104EFE52BE192B400637192 /* SFSymbolsExample3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsExample3.swift; sourceTree = "<group>"; };
+		4104EFE62BE192B400637192 /* SFSymbolExample5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolExample5.swift; sourceTree = "<group>"; };
+		4104EFEE2BE1935F00637192 /* SFSymbolExample6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolExample6.swift; sourceTree = "<group>"; };
+		4104EFEF2BE1935F00637192 /* SFSymbolExample7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolExample7.swift; sourceTree = "<group>"; };
 		411553752BDAF8010035AB38 /* Workless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		411553782BDAF8010035AB38 /* WorklessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorklessApp.swift; sourceTree = "<group>"; };
 		4115537A2BDAF8010035AB38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +156,11 @@
 				4104EFD62BE1909000637192 /* SensoryExample1.swift */,
 				4104EFDA2BE1919300637192 /* SFSymbolsExample1.swift */,
 				4104EFDB2BE1919300637192 /* SFSymbolsExample2.swift */,
+				4104EFE52BE192B400637192 /* SFSymbolsExample3.swift */,
+				4104EFE42BE192B400637192 /* SFSymbolExample4.swift */,
+				4104EFE62BE192B400637192 /* SFSymbolExample5.swift */,
+				4104EFEE2BE1935F00637192 /* SFSymbolExample6.swift */,
+				4104EFEF2BE1935F00637192 /* SFSymbolExample7.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -223,23 +238,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				4104EFD72BE1909000637192 /* SensoryExample1.swift in Sources */,
+				4104EFE92BE192B400637192 /* SFSymbolExample5.swift in Sources */,
 				41ED4D0F2BDC623000FCB439 /* ScrollViewExamples.swift in Sources */,
 				41ED4CE02BDAFE4600FCB439 /* Activity.swift in Sources */,
 				41ED4D1F2BE05AFE00FCB439 /* ScrollViewExamples5.swift in Sources */,
 				4104EFC92BE187DF00637192 /* ScrollViewExamples6.swift in Sources */,
 				4104EFC82BE187DF00637192 /* ScrollViewExamples9.swift in Sources */,
 				41ED4CE82BDB128300FCB439 /* ActivityProgressView.swift in Sources */,
+				4104EFF02BE1935F00637192 /* SFSymbolExample6.swift in Sources */,
 				41ED4CE62BDB0E3600FCB439 /* AddActivityView.swift in Sources */,
 				4104EFC62BE187DF00637192 /* ScrollViewExamples8.swift in Sources */,
 				4104EFD12BE189C400637192 /* ScrollViewExamples11.swift in Sources */,
 				4104EFC72BE187DF00637192 /* ScrollViewExamples7.swift in Sources */,
 				41ED4D0E2BDC623000FCB439 /* ContentUnavailableExample.swift in Sources */,
+				4104EFE72BE192B400637192 /* SFSymbolExample4.swift in Sources */,
 				41ED4CE42BDB06BE00FCB439 /* AboutView.swift in Sources */,
 				4115537B2BDAF8010035AB38 /* ContentView.swift in Sources */,
+				4104EFF12BE1935F00637192 /* SFSymbolExample7.swift in Sources */,
 				41ED4D182BDDA1FF00FCB439 /* ScrollViewExamples2.swift in Sources */,
 				41ED4CDC2BDAFDCB00FCB439 /* DataController.swift in Sources */,
 				4104EFDD2BE1919300637192 /* SFSymbolsExample2.swift in Sources */,
 				41ED4CEA2BDC2C2500FCB439 /* RankView.swift in Sources */,
+				4104EFE82BE192B400637192 /* SFSymbolsExample3.swift in Sources */,
 				4104EFDC2BE1919300637192 /* SFSymbolsExample1.swift in Sources */,
 				41ED4D1B2BDDAE9F00FCB439 /* ScrollViewExamples4.swift in Sources */,
 				41ED4D192BDDA1FF00FCB439 /* ScrollViewExamples3.swift in Sources */,
