@@ -52,6 +52,7 @@ struct AddActivityView: View {
                                 .clipShape(RoundedRectangle(cornerRadius: 25))
                             }
                             .containerRelativeFrame(.horizontal)
+                            
                         }
                     }
                 }
@@ -60,6 +61,7 @@ struct AddActivityView: View {
             }
             .navigationTitle("Add Activity")
             .scrollTargetBehavior(.viewAligned)
+            .scrollIndicatorsFlash(onAppear: true)
             .contentMargins(20, for: .scrollContent)
             .onAppear {
                 unusedActivities = dataController.unusedActivities

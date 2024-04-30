@@ -26,6 +26,12 @@ struct AboutView: View {
                     Text(LocalizedStringKey(string))
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.bottom)
+                            .scrollTransition(topLeading: .identity, bottomTrailing: .animated(.spring(duration: 0.5, bounce: 0.7))) {
+                                content, phase in
+                                    content
+                                        .scaleEffect(phase == .bottomTrailing ? 0.8 : 1)
+                            }
+                        
                     }
                     
                     ForEach(dataController.allActivities) { activity in
@@ -45,6 +51,13 @@ struct AboutView: View {
                         .background(.blue.gradient)
                         .clipShape(RoundedRectangle(cornerRadius: 20))
                         .foregroundStyle(.white)
+                        .scrollTransition(topLeading: .identity, bottomTrailing: .animated(.bouncy)) {
+                            content, phase in
+                                content
+                                .offset(x: phase == .bottomTrailing ? 100 : 0)
+                                .opacity(phase == .bottomTrailing ? 0 : 2)
+                        }
+
                     }
                 }
                 .padding(.horizontal, 16)
