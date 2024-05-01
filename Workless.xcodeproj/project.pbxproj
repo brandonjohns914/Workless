@@ -28,6 +28,10 @@
 		4115537B2BDAF8010035AB38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115537A2BDAF8010035AB38 /* ContentView.swift */; };
 		4115537D2BDAF8030035AB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4115537C2BDAF8030035AB38 /* Assets.xcassets */; };
 		411553802BDAF8030035AB38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4115537F2BDAF8030035AB38 /* Preview Assets.xcassets */; };
+		41A357C02BE2D73200D31330 /* ScrollViewExample12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A357BF2BE2D73200D31330 /* ScrollViewExample12.swift */; };
+		41A357C22BE2D8FD00D31330 /* ScrollViewExamples13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A357C12BE2D8FD00D31330 /* ScrollViewExamples13.swift */; };
+		41A357C42BE2D9C000D31330 /* ScaleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A357C32BE2D9C000D31330 /* ScaleExample.swift */; };
+		41A357C62BE2ED4B00D31330 /* ScaleExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A357C52BE2ED4B00D31330 /* ScaleExample2.swift */; };
 		41ED4CD82BDAFC4B00FCB439 /* Ranks.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41ED4CD72BDAFC4B00FCB439 /* Ranks.xcassets */; };
 		41ED4CDA2BDAFC9400FCB439 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4CD92BDAFC9400FCB439 /* Bundle-Decodable.swift */; };
 		41ED4CDC2BDAFDCB00FCB439 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED4CDB2BDAFDCB00FCB439 /* DataController.swift */; };
@@ -69,6 +73,10 @@
 		4115537A2BDAF8010035AB38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4115537C2BDAF8030035AB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4115537F2BDAF8030035AB38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41A357BF2BE2D73200D31330 /* ScrollViewExample12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample12.swift; sourceTree = "<group>"; };
+		41A357C12BE2D8FD00D31330 /* ScrollViewExamples13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples13.swift; sourceTree = "<group>"; };
+		41A357C32BE2D9C000D31330 /* ScaleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleExample.swift; sourceTree = "<group>"; };
+		41A357C52BE2ED4B00D31330 /* ScaleExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleExample2.swift; sourceTree = "<group>"; };
 		41ED4CD72BDAFC4B00FCB439 /* Ranks.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Ranks.xcassets; sourceTree = "<group>"; };
 		41ED4CD92BDAFC9400FCB439 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		41ED4CDB2BDAFDCB00FCB439 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
@@ -112,6 +120,8 @@
 				4104EFC42BE187DF00637192 /* ScrollViewExamples9.swift */,
 				4104EFCE2BE189C400637192 /* ScrollViewExamples10.swift */,
 				4104EFCF2BE189C400637192 /* ScrollViewExamples11.swift */,
+				41A357BF2BE2D73200D31330 /* ScrollViewExample12.swift */,
+				41A357C12BE2D8FD00D31330 /* ScrollViewExamples13.swift */,
 			);
 			path = Scroll;
 			sourceTree = "<group>";
@@ -186,14 +196,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		41A357C92BE2F98200D31330 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				41A357C32BE2D9C000D31330 /* ScaleExample.swift */,
+				41A357C52BE2ED4B00D31330 /* ScaleExample2.swift */,
+			);
+			path = Scale;
+			sourceTree = "<group>";
+		};
 		41ED4D0B2BDC621900FCB439 /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
 				41ED4D0C2BDC623000FCB439 /* ContentUnavailableExample.swift */,
+				4104EFD62BE1909000637192 /* SensoryExample1.swift */,
 				4104EFF42BE1A79100637192 /* Scroll */,
 				4104EFF52BE1A7A000637192 /* SF Symbols */,
-				4104EFD62BE1909000637192 /* SensoryExample1.swift */,
 				4104EFFC2BE1A9DA00637192 /* Animator */,
+				41A357C92BE2F98200D31330 /* Scale */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -295,12 +315,16 @@
 				41ED4CEA2BDC2C2500FCB439 /* RankView.swift in Sources */,
 				4104EFE82BE192B400637192 /* SFSymbolsExample3.swift in Sources */,
 				4104EFDC2BE1919300637192 /* SFSymbolsExample1.swift in Sources */,
+				41A357C42BE2D9C000D31330 /* ScaleExample.swift in Sources */,
 				41ED4D1B2BDDAE9F00FCB439 /* ScrollViewExamples4.swift in Sources */,
+				41A357C22BE2D8FD00D31330 /* ScrollViewExamples13.swift in Sources */,
 				41ED4D192BDDA1FF00FCB439 /* ScrollViewExamples3.swift in Sources */,
 				411553792BDAF8010035AB38 /* WorklessApp.swift in Sources */,
+				41A357C62BE2ED4B00D31330 /* ScaleExample2.swift in Sources */,
 				4104EFD02BE189C400637192 /* ScrollViewExamples10.swift in Sources */,
 				4104EFFE2BE1AA0B00637192 /* AnimatorsExample3.swift in Sources */,
 				41ED4CDA2BDAFC9400FCB439 /* Bundle-Decodable.swift in Sources */,
+				41A357C02BE2D73200D31330 /* ScrollViewExample12.swift in Sources */,
 				4104EFFB2BE1A9D500637192 /* AnimatorsExample2.swift in Sources */,
 				41ED4CE22BDAFE8D00FCB439 /* ActivityProgress.swift in Sources */,
 			);
@@ -452,6 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = BJ914.Workless;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -481,6 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = BJ914.Workless;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

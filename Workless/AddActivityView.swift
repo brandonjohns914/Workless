@@ -52,6 +52,10 @@ struct AddActivityView: View {
                                 .clipShape(RoundedRectangle(cornerRadius: 25))
                             }
                             .containerRelativeFrame(.horizontal)
+                            .visualEffect { content, proxy in
+                                content
+                                    .rotation3DEffect(.degrees(proxy.frame(in: .scrollView).minX / 20 ), axis: (x: 0, y: -1, z: 0))
+                            }
                             
                         }
                     }

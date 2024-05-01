@@ -45,12 +45,18 @@ struct AboutView: View {
                                 .padding(.vertical, 10)
                                 .font(.subheadline)
                             
+                            Text("**You'll Need \(activity.materials.formatted(.list(type: .and)))")
+                                .font(.subheadline)
                         }
                         .padding()
                         .frame(maxWidth: .infinity)
                         .background(.blue.gradient)
                         .clipShape(RoundedRectangle(cornerRadius: 20))
                         .foregroundStyle(.white)
+                        .visualEffect { content, proxy in
+                            content
+                                .hueRotation(-.degrees(proxy.frame(in: .global).minY / 30))
+                        }
                         .scrollTransition(topLeading: .identity, bottomTrailing: .animated(.bouncy)) {
                             content, phase in
                                 content

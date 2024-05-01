@@ -55,6 +55,9 @@ struct ContentView: View {
                     showingAddActivity.toggle()
                 } label: {
                     Label("Add Activity", systemImage: "plus")
+                        .visualEffect { content, proxy in
+                            content.hueRotation(-.degrees(proxy.size.width))
+                        }
                 }
             }
             .sheet(isPresented: $showingAddActivity) {
