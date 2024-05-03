@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RankView: View {
-    @EnvironmentObject var dataController: DataController
+    @Environment(DataController.self) var dataController
     var body: some View {
         if dataController.activityProgress.isEmpty {
             ContentUnavailableView("No Activities", systemImage: "star.slash")
@@ -40,5 +40,5 @@ struct RankView: View {
 
 #Preview {
     RankView()
-        .environmentObject(DataController())
+        .environment(DataController())
 }

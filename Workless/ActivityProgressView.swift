@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ActivityProgressView: View {
-    @EnvironmentObject var dataController: DataController
+    @Environment(DataController.self) var dataController
     var item: ActivityProgress
     
     var body: some View {

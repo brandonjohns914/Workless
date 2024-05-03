@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var dataController: DataController
+    @Environment(DataController.self) var dataController
     @State private var showingAddActivity = false
     
     var body: some View {
@@ -73,5 +73,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .environmentObject(DataController())
+        .environment(DataController())
 }

@@ -28,6 +28,7 @@
 		4115537B2BDAF8010035AB38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115537A2BDAF8010035AB38 /* ContentView.swift */; };
 		4115537D2BDAF8030035AB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4115537C2BDAF8030035AB38 /* Assets.xcassets */; };
 		411553802BDAF8030035AB38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4115537F2BDAF8030035AB38 /* Preview Assets.xcassets */; };
+		412E1F3A2BE4489300ACFC0E /* SwiftDataExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412E1F392BE4489300ACFC0E /* SwiftDataExample1.swift */; };
 		41A357C02BE2D73200D31330 /* ScrollViewExample12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A357BF2BE2D73200D31330 /* ScrollViewExample12.swift */; };
 		41A357C22BE2D8FD00D31330 /* ScrollViewExamples13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A357C12BE2D8FD00D31330 /* ScrollViewExamples13.swift */; };
 		41A357C42BE2D9C000D31330 /* ScaleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A357C32BE2D9C000D31330 /* ScaleExample.swift */; };
@@ -73,6 +74,7 @@
 		4115537A2BDAF8010035AB38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4115537C2BDAF8030035AB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4115537F2BDAF8030035AB38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		412E1F392BE4489300ACFC0E /* SwiftDataExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExample1.swift; sourceTree = "<group>"; };
 		41A357BF2BE2D73200D31330 /* ScrollViewExample12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample12.swift; sourceTree = "<group>"; };
 		41A357C12BE2D8FD00D31330 /* ScrollViewExamples13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExamples13.swift; sourceTree = "<group>"; };
 		41A357C32BE2D9C000D31330 /* ScaleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleExample.swift; sourceTree = "<group>"; };
@@ -196,6 +198,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		412E1F362BE43EFE00ACFC0E /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				41ED4D0C2BDC623000FCB439 /* ContentUnavailableExample.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		412E1F372BE43F0800ACFC0E /* Sensory */ = {
+			isa = PBXGroup;
+			children = (
+				4104EFD62BE1909000637192 /* SensoryExample1.swift */,
+			);
+			path = Sensory;
+			sourceTree = "<group>";
+		};
+		412E1F382BE4486B00ACFC0E /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				412E1F392BE4489300ACFC0E /* SwiftDataExample1.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
 		41A357C92BE2F98200D31330 /* Scale */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,8 +234,9 @@
 		41ED4D0B2BDC621900FCB439 /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
-				41ED4D0C2BDC623000FCB439 /* ContentUnavailableExample.swift */,
-				4104EFD62BE1909000637192 /* SensoryExample1.swift */,
+				412E1F382BE4486B00ACFC0E /* SwiftData */,
+				412E1F362BE43EFE00ACFC0E /* Content */,
+				412E1F372BE43F0800ACFC0E /* Sensory */,
 				4104EFF42BE1A79100637192 /* Scroll */,
 				4104EFF52BE1A7A000637192 /* SF Symbols */,
 				4104EFFC2BE1A9DA00637192 /* Animator */,
@@ -316,6 +343,7 @@
 				4104EFE82BE192B400637192 /* SFSymbolsExample3.swift in Sources */,
 				4104EFDC2BE1919300637192 /* SFSymbolsExample1.swift in Sources */,
 				41A357C42BE2D9C000D31330 /* ScaleExample.swift in Sources */,
+				412E1F3A2BE4489300ACFC0E /* SwiftDataExample1.swift in Sources */,
 				41ED4D1B2BDDAE9F00FCB439 /* ScrollViewExamples4.swift in Sources */,
 				41A357C22BE2D8FD00D31330 /* ScrollViewExamples13.swift in Sources */,
 				41ED4D192BDDA1FF00FCB439 /* ScrollViewExamples3.swift in Sources */,
