@@ -12,6 +12,7 @@ struct ActivityProgressView: View {
     var item: ActivityProgress
     
     var body: some View {
+        let _ = print("Invoking body of \(item.id)")
         HStack {
             Image(item.id)
                 .resizable()
